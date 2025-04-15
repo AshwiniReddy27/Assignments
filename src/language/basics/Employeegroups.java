@@ -14,7 +14,7 @@ public class Employeegroups {
 		ids[2]=employees.empId3;
 		System.out.println("Employee name : "+names[0] + ",Employee id : "+ids[0]);
 		System.out.println("Employee name : "+names[1] + ",Employee id : "+ids[1]);
-		System.out.println("Employee name :"+names[2] + ",Employee id i: "+ids[2]);
+		System.out.println("Employee name :"+names[2] + ",Employee id : "+ids[2]);
 		
 	}
 
