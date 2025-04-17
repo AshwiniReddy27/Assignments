@@ -104,6 +104,7 @@ public class Collections_Assignment {
 		employeeDetailsR3.put("Email","carol@example.com");
 		employeeDetailsR3.put("Contact Number","9876543215");
 		System.out.println("Employee Details:"+ employeeDetailsR3);
+		//Now Storing all the employee details
 		
 		List<Map<String,String>>employeeDetails=new ArrayList<Map<String,String>>();
 		employeeDetails.add(employeeDetailsR1);
@@ -164,7 +165,7 @@ public class Collections_Assignment {
 		productDetailsR3.put("Manufacturing Date", "20/3/2023");
 		productDetailsR3.put("Expiry Date", "20/3/2024");
 		System.out.println("Product Details:"+ productDetailsR3);
-		
+		//Now Storing all the Product Details
 		
 		List<Map<String,String>>ProductDetails=new ArrayList<Map<String,String>>();
 		ProductDetails.add(productDetailsR1);
@@ -175,6 +176,7 @@ public class Collections_Assignment {
 		
 		Map<String, List<Map<String,String>>>data=new HashMap<String ,List<Map<String,String>>>();
 		data.put("StudentData",studentdetails);
+		data.put("employeeDetails",employeeDetails);
 		data.put("ProductData", ProductDetails);
 		
 		data.get("ProductData").get(1).get("Supplier");
